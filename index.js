@@ -46,7 +46,7 @@ function CharacterFire(Background, Character, Enemies){
             console.log("Hit!");
 
         }
-        Bullet.style.left = Number.parseInt(getComputedStyle(Bullet).left) + 300 + "px";
+        Bullet.style.left = Number.parseInt(getComputedStyle(Bullet).left) + 1000 + "px";
 
     },100);
 }
